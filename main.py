@@ -7,7 +7,6 @@ import sys
 def sentenceclean(path):
     str = ''
     f = open(path, 'r', encoding='UTF-8')
-    '''读第一句'''
     line = f.readline()
     while line:
         str = str + line
